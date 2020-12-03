@@ -7,9 +7,9 @@
 package security
 
 import (
+	authn "github.com/armory-io/kleat/api/client/security/authn"
+	authz "github.com/armory-io/kleat/api/client/security/authz"
 	proto "github.com/golang/protobuf/proto"
-	authn "github.com/spinnaker/kleat/api/client/security/authn"
-	authz "github.com/spinnaker/kleat/api/client/security/authz"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

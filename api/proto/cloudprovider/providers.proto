@@ -1,7 +1,7 @@
 syntax = "proto3";
 package proto.cloudprovider;
 
-option go_package = "github.com/spinnaker/kleat/api/client/cloudprovider";
+option go_package = "github.com/armory-io/kleat/api/client/cloudprovider";
 
 import "cloudprovider/appengine.proto";
 import "cloudprovider/aws.proto";

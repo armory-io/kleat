@@ -31,7 +31,7 @@ microservice from one top-level Spinnaker configuration file. It is intended
 for use with the Spinnaker Kustomization base
 (https://github.com/spinnaker/kustomization-base)
 as an alternative to the Halyard-managed configuration and deployment
-experience. Please check out the README at https://github.com/spinnaker/kleat
+experience. Please check out the README at https://github.com/armory-io/kleat
 for more details.`,
 }
 

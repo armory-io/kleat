@@ -16,7 +16,7 @@
 
 package convert
 
-import "github.com/spinnaker/kleat/api/client/config"
+import "github.com/armory-io/kleat/api/client/config"
 
 // HalToOrca generates the orca config for the supplied config.Hal h.
 func HalToOrca(h *config.Hal) *config.Orca {

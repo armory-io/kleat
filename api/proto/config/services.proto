@@ -1,7 +1,7 @@
 syntax = "proto3";
 package proto.config;
 
-option go_package = "github.com/spinnaker/kleat/api/client/config";
+option go_package = "github.com/armory-io/kleat/api/client/config";
 
 import "config/clouddriver.proto";
 import "config/deck.proto";

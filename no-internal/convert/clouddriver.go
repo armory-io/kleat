@@ -16,7 +16,7 @@
 
 package convert
 
-import "github.com/spinnaker/kleat/api/client/config"
+import "github.com/armory-io/kleat/api/client/config"
 
 // HalToClouddriver generates the clouddriver config for the supplied config.Hal h.
 func HalToClouddriver(h *config.Hal) *config.Clouddriver {

@@ -16,7 +16,7 @@
 
 package main
 
-import "github.com/spinnaker/kleat/cmd"
+import "github.com/armory-io/kleat/cmd"
 
 func main() {
 	cmd.Execute()

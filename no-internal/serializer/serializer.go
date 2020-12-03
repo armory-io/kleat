@@ -26,7 +26,7 @@ import (
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/reflect/protoreflect"
 
-	"github.com/spinnaker/kleat/internal/protoyaml"
+	"github.com/armory-io/kleat/no-internal/protoyaml"
 )
 
 // Serializer is an interface that wraps a method to serialize a proto.Message

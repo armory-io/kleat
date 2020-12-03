@@ -17,9 +17,9 @@
 package convert
 
 import (
-	"github.com/spinnaker/kleat/api/client"
-	"github.com/spinnaker/kleat/api/client/config"
-	"github.com/spinnaker/kleat/pkg/version"
+	"github.com/armory-io/kleat/api/client"
+	"github.com/armory-io/kleat/api/client/config"
+	"github.com/armory-io/kleat/pkg/version"
 )
 
 // HalToEcho generates the echo config for the supplied config.Hal h.

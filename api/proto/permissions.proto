@@ -1,7 +1,7 @@
 syntax = "proto3";
 package proto;
 
-option go_package = "github.com/spinnaker/kleat/api/client";
+option go_package = "github.com/armory-io/kleat/api/client";
 
 // A Fiat permissions configuration object.
 message Permissions {

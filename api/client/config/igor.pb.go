@@ -7,10 +7,10 @@
 package config
 
 import (
+	artifact "github.com/armory-io/kleat/api/client/artifact"
+	ci "github.com/armory-io/kleat/api/client/ci"
+	repository "github.com/armory-io/kleat/api/client/repository"
 	proto "github.com/golang/protobuf/proto"
-	artifact "github.com/spinnaker/kleat/api/client/artifact"
-	ci "github.com/spinnaker/kleat/api/client/ci"
-	repository "github.com/spinnaker/kleat/api/client/repository"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	wrapperspb "google.golang.org/protobuf/types/known/wrapperspb"

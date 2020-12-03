@@ -1,6 +1,6 @@
 # kleat
 
-![Kleat CI](https://github.com/spinnaker/kleat/workflows/Kleat%20CI/badge.svg)
+![Kleat CI](https://github.com/armory-io/kleat/workflows/Kleat%20CI/badge.svg)
 
 Kleat is tool for managing Spinnaker configuration files that is intended to
 replace Halyard. Please see the
@@ -24,7 +24,7 @@ from Halyard.
 ### Installation
 
 Download the appropriate binary from the
-[releases page](https://github.com/spinnaker/kleat/releases/latest).
+[releases page](https://github.com/armory-io/kleat/releases/latest).
 
 ### Usage
 

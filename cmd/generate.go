@@ -17,7 +17,7 @@
 package cmd
 
 import (
-	"github.com/spinnaker/kleat/internal/fileio"
+	"github.com/armory-io/kleat/no-internal/fileio"
 
 	"github.com/spf13/cobra"
 )

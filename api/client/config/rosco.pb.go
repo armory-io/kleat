@@ -7,8 +7,8 @@
 package config
 
 import (
+	cloudprovider "github.com/armory-io/kleat/api/client/cloudprovider"
 	proto "github.com/golang/protobuf/proto"
-	cloudprovider "github.com/spinnaker/kleat/api/client/cloudprovider"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

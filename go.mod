@@ -1,4 +1,4 @@
-module github.com/spinnaker/kleat
+module github.com/armory-io/kleat
 
 go 1.15
 

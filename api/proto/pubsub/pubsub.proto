@@ -1,7 +1,7 @@
 syntax = "proto3";
 package proto.pubsub;
 
-option go_package = "github.com/spinnaker/kleat/api/client/pubsub";
+option go_package = "github.com/armory-io/kleat/api/client/pubsub";
 
 import "google/protobuf/wrappers.proto";
 

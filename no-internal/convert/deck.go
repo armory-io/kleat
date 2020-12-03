@@ -21,8 +21,8 @@ import (
 
 	"google.golang.org/protobuf/types/known/wrapperspb"
 
-	"github.com/spinnaker/kleat/api/client/cloudprovider"
-	"github.com/spinnaker/kleat/api/client/config"
+	"github.com/armory-io/kleat/api/client/cloudprovider"
+	"github.com/armory-io/kleat/api/client/config"
 )
 
 // HalToDeck generates the deck config for the supplied config.Hal h.

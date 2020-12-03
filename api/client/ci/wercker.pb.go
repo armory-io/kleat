@@ -7,8 +7,8 @@
 package ci
 
 import (
+	client "github.com/armory-io/kleat/api/client"
 	proto "github.com/golang/protobuf/proto"
-	client "github.com/spinnaker/kleat/api/client"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	wrapperspb "google.golang.org/protobuf/types/known/wrapperspb"

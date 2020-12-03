@@ -19,7 +19,7 @@ package cmd
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/spinnaker/kleat/pkg/version"
+	"github.com/armory-io/kleat/pkg/version"
 )
 
 var versionCmd = &cobra.Command{

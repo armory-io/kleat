@@ -7,8 +7,8 @@
 package config
 
 import (
+	metricstores "github.com/armory-io/kleat/api/client/metricstores"
 	proto "github.com/golang/protobuf/proto"
-	metricstores "github.com/spinnaker/kleat/api/client/metricstores"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

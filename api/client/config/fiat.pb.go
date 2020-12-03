@@ -7,8 +7,8 @@
 package config
 
 import (
+	authz "github.com/armory-io/kleat/api/client/security/authz"
 	proto "github.com/golang/protobuf/proto"
-	authz "github.com/spinnaker/kleat/api/client/security/authz"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

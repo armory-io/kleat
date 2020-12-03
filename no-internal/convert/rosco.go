@@ -16,7 +16,7 @@
 
 package convert
 
-import "github.com/spinnaker/kleat/api/client/config"
+import "github.com/armory-io/kleat/api/client/config"
 
 // HalToRosco generates the rosco config for the supplied config.Hal h.
 func HalToRosco(h *config.Hal) *config.Rosco {

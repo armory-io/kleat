@@ -1,7 +1,7 @@
 syntax = "proto3";
 package proto.storage;
 
-option go_package = "github.com/spinnaker/kleat/api/client/storage";
+option go_package = "github.com/armory-io/kleat/api/client/storage";
 
 import "google/protobuf/wrappers.proto";
 

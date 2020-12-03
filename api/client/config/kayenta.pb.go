@@ -7,8 +7,8 @@
 package config
 
 import (
+	canary "github.com/armory-io/kleat/api/client/canary"
 	proto "github.com/golang/protobuf/proto"
-	canary "github.com/spinnaker/kleat/api/client/canary"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	wrapperspb "google.golang.org/protobuf/types/known/wrapperspb"

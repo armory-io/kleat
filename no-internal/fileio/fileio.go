@@ -24,10 +24,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/spinnaker/kleat/api/client/config"
-	"github.com/spinnaker/kleat/internal/protoyaml"
-	"github.com/spinnaker/kleat/internal/validate"
-	"github.com/spinnaker/kleat/pkg/transform"
+	"github.com/armory-io/kleat/api/client/config"
+	"github.com/armory-io/kleat/no-internal/protoyaml"
+	"github.com/armory-io/kleat/no-internal/validate"
+	"github.com/armory-io/kleat/pkg/transform"
 )
 
 // ParseHalConfig reads the YAML file at halPath parses it into a *config.Hal.

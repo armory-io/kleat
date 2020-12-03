@@ -7,8 +7,8 @@
 package config
 
 import (
+	storage "github.com/armory-io/kleat/api/client/storage"
 	proto "github.com/golang/protobuf/proto"
-	storage "github.com/spinnaker/kleat/api/client/storage"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

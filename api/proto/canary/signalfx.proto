@@ -1,7 +1,7 @@
 syntax = "proto3";
 package proto.canary;
 
-option go_package = "github.com/spinnaker/kleat/api/client/canary";
+option go_package = "github.com/armory-io/kleat/api/client/canary";
 
 import "google/protobuf/wrappers.proto";
 

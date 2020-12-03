@@ -22,7 +22,7 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/spinnaker/kleat/api/client/config"
+	"github.com/armory-io/kleat/api/client/config"
 )
 
 type validationFailure struct {

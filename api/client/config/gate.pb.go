@@ -7,9 +7,9 @@
 package config
 
 import (
+	security "github.com/armory-io/kleat/api/client/security"
+	authn "github.com/armory-io/kleat/api/client/security/authn"
 	proto "github.com/golang/protobuf/proto"
-	security "github.com/spinnaker/kleat/api/client/security"
-	authn "github.com/spinnaker/kleat/api/client/security/authn"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	wrapperspb "google.golang.org/protobuf/types/known/wrapperspb"

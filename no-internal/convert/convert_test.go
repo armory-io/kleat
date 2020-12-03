@@ -21,8 +21,8 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	"github.com/spinnaker/kleat/api/client/config"
-	"github.com/spinnaker/kleat/internal/prototest"
+	"github.com/armory-io/kleat/api/client/config"
+	"github.com/armory-io/kleat/no-internal/prototest"
 )
 
 // testCase represents a test case for config generation, indicating

@@ -1,7 +1,7 @@
 syntax = "proto3";
 package proto.artifact;
 
-option go_package = "github.com/spinnaker/kleat/api/client/artifact";
+option go_package = "github.com/armory-io/kleat/api/client/artifact";
 
 // Configuration for a Jinja template for Spinnaker to use for artifact
 // extraction. For more details, please read the documentation:

@@ -17,8 +17,8 @@
 package convert
 
 import (
-	"github.com/spinnaker/kleat/api/client/canary"
-	"github.com/spinnaker/kleat/api/client/config"
+	"github.com/armory-io/kleat/api/client/canary"
+	"github.com/armory-io/kleat/api/client/config"
 )
 
 // HalToKayenta generates the kayanta config for the supplied config.Hal h.

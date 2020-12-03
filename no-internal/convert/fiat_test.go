@@ -22,10 +22,10 @@ import (
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/known/wrapperspb"
 
-	"github.com/spinnaker/kleat/api/client/config"
-	"github.com/spinnaker/kleat/api/client/security"
-	"github.com/spinnaker/kleat/api/client/security/authz"
-	"github.com/spinnaker/kleat/internal/convert"
+	"github.com/armory-io/kleat/api/client/config"
+	"github.com/armory-io/kleat/api/client/security"
+	"github.com/armory-io/kleat/api/client/security/authz"
+	"github.com/armory-io/kleat/no-internal/convert"
 )
 
 var fiatTests = configTest{

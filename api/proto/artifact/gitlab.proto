@@ -1,7 +1,7 @@
 syntax = "proto3";
 package proto.artifact;
 
-option go_package = "github.com/spinnaker/kleat/api/client/artifact";
+option go_package = "github.com/armory-io/kleat/api/client/artifact";
 
 import "google/protobuf/wrappers.proto";
 

@@ -7,8 +7,8 @@
 package config
 
 import (
+	notification "github.com/armory-io/kleat/api/client/notification"
 	proto "github.com/golang/protobuf/proto"
-	notification "github.com/spinnaker/kleat/api/client/notification"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	wrapperspb "google.golang.org/protobuf/types/known/wrapperspb"

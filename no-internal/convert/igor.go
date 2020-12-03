@@ -17,7 +17,7 @@
 package convert
 
 import (
-	"github.com/spinnaker/kleat/api/client/config"
+	"github.com/armory-io/kleat/api/client/config"
 )
 
 // HalToIgor generates the igor config for the supplied config.Hal h.

@@ -22,9 +22,9 @@ import (
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/known/wrapperspb"
 
-	"github.com/spinnaker/kleat/api/client/cloudprovider"
-	"github.com/spinnaker/kleat/api/client/config"
-	"github.com/spinnaker/kleat/internal/convert"
+	"github.com/armory-io/kleat/api/client/cloudprovider"
+	"github.com/armory-io/kleat/api/client/config"
+	"github.com/armory-io/kleat/no-internal/convert"
 )
 
 var roscoTests = configTest{
